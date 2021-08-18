@@ -3,7 +3,11 @@
 .main_header{
   .main_header_image{
     background-image: url("../../assets/banner.jpg");
-    min-height: 500px;
+    background-repeat: no-repeat;
+    height: 500px;
+    .h1{
+      height: 100%;
+    }
   }
 }
 
