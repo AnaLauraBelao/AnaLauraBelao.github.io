@@ -1,8 +1,9 @@
 @import "variables";
 
-.carousel-item{
-  img{
-    height: 450px;
+.main_header{
+  .main_header_image{
+    background-image: url("../../assets/banner.jpg");
+    min-height: 500px;
   }
 }
 
