@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JuniorCristian/juiorcristian.github.io#readme",
   "dependencies": {
-    "bootstrap": "4.6.x"
+    "bootstrap": "4.6.x",
+    "font-awesome": "^4.7.0"
   }
 }
