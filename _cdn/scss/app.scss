@@ -1,5 +1,9 @@
 @import "variables";
 
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 .main_header{
   .main_header_image{
     background-image: url("../../assets/banner.jpg");
@@ -8,13 +12,16 @@
     height: 600px;
     .main_header_image_filter{
       background-color: $color-front-default_opacity;
-      p{
+      h4{
         font: normal normal normal 30px/1.4em futura-lt-w01-light,sans-serif;
       }
       h1{
         font-family: 'Abril Fatface', cursive;
         font-size: 75px;
         font-weight: 500;
+      }
+      p{
+        font: normal normal normal 20px futura-lt-w01-light,sans-serif;
       }
     }
   }
@@ -38,6 +45,50 @@
         font-size: 20px;
       }
     }
+  }
+}
+
+.academic_training_and_experencies{
+  .academic_training_box{
+    span{
+      font-size: 17px;
+      color: #000;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .experencies_box{
+    span{
+      font-size: 17px;
+      color: #000;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+}
+
+.interests_and_contact{
+  .contacts{
+    .contacts_mail_and_phone{
+      a{
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    .contacts_icons{
+      a{
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.main-footer{
+  p{
+    font-size: 12px;
   }
 }
 
