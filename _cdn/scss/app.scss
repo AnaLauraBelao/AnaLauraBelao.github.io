@@ -13,15 +13,14 @@
     .main_header_image_filter{
       background-color: $color-front-default_opacity;
       h4{
-        font: normal normal normal 30px/1.4em futura-lt-w01-light,sans-serif;
+        font-size: 30px/1.4em;
       }
       h1{
-        font-family: 'Abril Fatface', cursive;
         font-size: 75px;
         font-weight: 500;
       }
       p{
-        font: normal normal normal 20px futura-lt-w01-light,sans-serif;
+        font-size: 20px;
       }
     }
   }
@@ -31,7 +30,7 @@
       font-weight: 500;
     }
     p{
-      font: normal normal normal 18px futura-lt-w01-light,sans-serif;
+      font-size: 18px;
     }
     .main_header_asing_image {
       width: 150px;

@@ -11,18 +11,17 @@
   .main_header .main_header_image .main_header_image_filter {
     background-color: rgba(0, 57, 80, 0.5); }
     .main_header .main_header_image .main_header_image_filter h4 {
-      font: normal normal normal 30px/1.4em futura-lt-w01-light,sans-serif; }
+      font-size: 30px/1.4em; }
     .main_header .main_header_image .main_header_image_filter h1 {
-      font-family: 'Abril Fatface', cursive;
       font-size: 75px;
       font-weight: 500; }
     .main_header .main_header_image .main_header_image_filter p {
-      font: normal normal normal 20px futura-lt-w01-light,sans-serif; }
+      font-size: 20px; }
 .main_header .main_header_asing h3 {
   font-family: 'Abril Fatface', cursive;
   font-weight: 500; }
 .main_header .main_header_asing p {
-  font: normal normal normal 18px futura-lt-w01-light,sans-serif; }
+  font-size: 18px; }
 .main_header .main_header_asing .main_header_asing_image {
   width: 150px;
   border-radius: 50%;
